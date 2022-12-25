@@ -1,0 +1,39 @@
+barra de navegacion
+<nav>
+	<ul>
+		<li><a href="#">Inicio</a>
+		<li><a href="#">Quienes somos</a>
+		<li><a href="#">Servicios</a>
+	</ul>
+</nav>
+
+Pie de pagina
+
+<footer>
+<p>Todos los derechos reservados></p>
+<nav>
+	<ul>
+		<li><a href="#">Termonos y condiciones</a>
+		<li><a href="#">mapa de sitio</a>
+		<li><a href="#">Información legal</a>
+	</ul>
+</nav>
+
+
+</footer>
+
+
+Listas
+Ordenadas
+<ol> <ol type="1">Numerico	<ol type="A">Alfanumerico	<ol type="I">Romano	<ol start="20"> inicio puede ser cualquier valor ppositivo o negativo
+	<li>List Item</li>
+	<li>List Item</li>
+</ol>
+
+
+
+desordenadas
+<ul> <ul type="disc"> Circle Square None
+	<li>List Item</li>
+	<li>List Item</li>
+</ul>

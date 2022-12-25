@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.flex{
+ display: flex;
+}
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1280px;
+    height: auto;
+    padding: 20px 0px 20px 0px;
+    background-color: orange;
+    justify-content: space-around;
+}
+
+.headertopleft{
+    width: fit-content;
+    font-weight: 600;
+}
+
+.headertoplefttxt {
+    width: 125px;
+    justify-content: center;
+}
