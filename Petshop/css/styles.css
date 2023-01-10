@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .flex{
@@ -140,11 +141,11 @@ padding-bottom: 10px;
 
 .formcincoinput{
     border: 1px solid black;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom: 10px;
     width: 250px;
     background-color: brown;
-    color: whitesmoke;
+    color: white;
     height: 24px;
     padding: 0 5px 0 5px;
 }
@@ -152,20 +153,16 @@ padding-bottom: 10px;
 .maincincobotondiv{
     flex-direction: row;
     justify-content:space-around;
-    
     width: 250px;
     height: auto;
     
 }
 
 .maincincoboton{
-    width: 70px;
+    width: 80px;
     height: 32px;
-    
     border-radius: 5px;
-    color: whitesmoke;
-    
-
+    color: white;
 }
 
 .maincincobotonreset{
@@ -174,6 +171,85 @@ padding-bottom: 10px;
 }
 
 .maincincobotonsubmit{
-    background-color: brown;
+    background-color: orange;
     
+}
+
+
+/* FOOTER */
+footer{
+    width: 1024px;
+    /*border: 1px solid black;*/
+    
+}
+/* pie uno */
+
+.piesecuno{
+    background-color: orange;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+
+}
+
+.pieunoimg{
+    width: 32px;
+    height: 32px;
+}
+
+.pseis{
+    font-size: 24px;
+    color: white;
+    padding: 5px;
+}
+
+.piedivdosinput{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    background-color: white;
+    color: black;
+    height: 32px;
+    padding: 0 5px 0 5px;
+}
+
+.piedivdosboton{
+    width: 95px;
+    height: 32px;
+    border-radius: 5px;
+    color: white;
+}
+
+.piedivdosboton{
+    background-color: brown;
+}
+
+
+/* pie dos */
+.piesecdos{
+    background-color: brown;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    
+}
+
+.piedivunouno{
+    padding: 10px 0 10px 0;
+}
+
+.piedivunounouno{
+    flex-direction: column;
+    align-items:left;
+}
+
+
+.psiete{
+    font-size: 10px;
+    color: white;
+}
+
+.piedivdos{
+    height: 19px;
+    width: auto;
 }
