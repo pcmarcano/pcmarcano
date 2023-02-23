@@ -128,9 +128,9 @@ header{
 }
 
 .pcinco{
-font-weight: 600;
-color: brown;
-padding-bottom: 10px;
+    font-weight: 600;
+    color: brown;
+    padding-bottom: 10px;
 }
 
 .formcinco{
@@ -179,8 +179,6 @@ padding-bottom: 10px;
 /* FOOTER */
 footer{
     width: 1024px;
-    /*border: 1px solid black;*/
-    
 }
 /* pie uno */
 
@@ -231,7 +229,6 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 0 50px 0 50px;
-    
 }
 
 .piedivunouno{

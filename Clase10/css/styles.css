@@ -1,0 +1,116 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1024px;
+    margin: auto;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+}
+
+.hd1 {
+    padding-left: 15px;
+    background-color: #1CD1B0;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.hd2 {
+    padding-left: 15px;
+    background-color: #00669F;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+
+}
+.just{
+    justify-content: space-around;
+}
+.card{
+    margin: 30px 0 30px 0;
+    width: 300px;
+    height: 490px;
+    border-radius: 16px 16px 0px 0px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);;
+    text-align: center;/* porque chcha alinea la imagen pero no alinea desde la clase foto*/
+    position: relative;
+    
+
+}
+
+.fondo{
+    width: 300px;
+}
+
+
+.foto{
+    width: 120px;
+    border-radius: 60px;
+    display: inline-block;
+    position: absolute;
+    z-index: 50;
+    top: 130px;
+    left: 85px;
+}
+
+.nombre{
+    text-align: center;
+    width: 300px;
+    font-size: 30px;
+    text-transform: capitalize ;
+    position: absolute;
+    z-index: 51;
+    top: 245px;
+    left: 0px;
+}
+
+.descri{
+    /*margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;*/
+
+    text-align: justify;
+    width: 290px;
+    font-size: 12px;
+
+    position: absolute;
+    z-index: 52;
+    top: 290px;
+    left: 5px;
+}
+
+.boton {
+    background-color: #00669f;
+    width: 120px;
+    height: 48px;
+    border: none;
+    color: white;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+
+    position: absolute;
+    z-index: 53;
+    top: 400px;
+    left: 85px;
+  }
+
+
+
+
+
+
+footer{
+    padding: 15px 0px 15px 15px;
+
+    background-color: #00669F;
+    font-size: 10px;
+
+}

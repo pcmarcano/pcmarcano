@@ -9,10 +9,11 @@ Plantilla HTML
     <link href="favicon.ico" rel="shortcut icon"  />
     <link href="./css/styles.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9682730742.js" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"> -->
 </head>
 <body>
     <header>
-    
+    <!-- Comment -->
     
     </header>
     <main>
