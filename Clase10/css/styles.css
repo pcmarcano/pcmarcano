@@ -46,16 +46,24 @@
     width: 300px;
 }
 
+.corazon{
+    width: auto;
+    z-index: 60;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    
+}
 
 .foto{
     width: 120px;
     border-radius: 60px;
-    display: inline-block;
     position: absolute;
     z-index: 50;
     top: 130px;
     left: 85px;
 }
+
 
 .nombre{
     text-align: center;
