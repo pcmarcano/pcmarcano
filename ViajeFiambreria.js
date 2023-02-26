@@ -44,17 +44,17 @@ de los pantalones ¡Un horror! ¿Cómo haríamos para invertirlos?
 Pensá con qué código podrías invertir el contenido de las variables de cajones.
 */
 
-var GramosComprar = 150 ;
-var Temperatura = 21 ;
-var Lloviendo = 0 ;
-var Piso = 0 ;
-var HoraActual = 1500 ;
-var HoraApertura = 8000 ;
-var HoraCierre = 1800 ;
-var Fiambrera = "Monica" ;
-var Gramos = 100 ;
-var TipoQueso = "Dambo" ;
-var CantidadQueso = 100 ;
+let GramosComprar = 150 ;
+let Temperatura = 21 ;
+let Lloviendo = 0 ;
+let Piso = 0 ;
+let HoraActual = 1500 ;
+let HoraApertura = 8000 ;
+let HoraCierre = 1800 ;
+let Fiambrera = "Monica" ;
+let Gramos = 100 ;
+let TipoQueso = "Dambo" ;
+let CantidadQueso = 100 ;
 
 
 
@@ -79,3 +79,4 @@ var cama = cajonremera;
 var cajonremera = cajonpantalones;
 var cajonpantalones = cama;
 console.log("Cajon Remera: " + cajonremera + " .Cajon Pantalones: " + cajonpantalones);
+
