@@ -1,4 +1,4 @@
-### Hi there 👋
+### Hi there 👋 I'll be updating this repo as much as I can
 
 <!--
 **pcmarcano/pcmarcano** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
