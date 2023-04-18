@@ -1,6 +1,6 @@
 <h1 align="center" style="color:#1c46d1">Hi 👋, I'm Pedro Marcano</h1>
 <h2 align="center">I'll be updating this repo as much as I can</h1>
-<h3 align="center">A passionate frontend developer from Venezuela living in Chile</h3>
+<h3 align="center">A passionate developer from Venezuela living in Chile</h3>
 <p align="justify">Hi! I’m Pedro Marcano, I’m a computer science and overall technology follower. I create solutions for users that help simplify everyday tasks. I worked creating FileMaker Pro applications for diverse industries helping them reduce time and money doing routine work and getting them to work on things that really matter to them. Working side by side with customers and users to design and create their desired software application from UI elements, give them a UX they’ll love, to results and reports they will trust. Now I’m moving to more widespread and open languages to help more and learn from a bigger community.</p>
 
 [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=pcmarcano&count_private=true&show_icons=true)]()
