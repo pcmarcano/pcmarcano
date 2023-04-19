@@ -1,7 +1,7 @@
 <h1 align="center" style="color:#1c46d1">Hi 👋, I'm Pedro Marcano</h1>
 <h2 align="center">I'll be updating this repo as much as I can</h1>
 <h3 align="center">A passionate developer from Venezuela living in Chile</h3>
-<p align="justify">Hi! I’m Pedro Marcano, I’m a computer science and overall technology follower. I create solutions for users that help simplify everyday tasks. I worked creating FileMaker Pro applications for diverse industries helping them reduce time and money doing routine work and getting them to work on things that really matter to them. Working side by side with customers and users to design and create their desired software application from UI elements, give them a UX they’ll love, to results and reports they will trust. Now I’m moving to more widespread and open languages to help more and learn from a bigger community.</p>
+<p align="justify">:sound: I’m a computer science and overall technology follower. I create solutions for users that help simplify everyday tasks. I worked creating FileMaker Pro applications for diverse industries helping them reduce time and money doing routine work and getting them to work on things that really matter to them. Working side by side with customers and users to design and create their desired software application from UI elements, give them a UX they’ll love, to results and reports they will trust. Now I’m moving to more widespread and open languages to help more and learn from a bigger community.</p>
 
 
 
@@ -29,7 +29,7 @@ Here are some ideas to get you started:
     <a href="https://twitter.com/pcmarcano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="pcmarcano" height="30" width="40" /></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
+<h3 align="left">:toolbox: Languages and Tools:</h3>
 <p align="left"> 
     <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
     <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
@@ -54,3 +54,6 @@ Here are some ideas to get you started:
 
 
 </details>
+
+:sound:
+:radio_button:
