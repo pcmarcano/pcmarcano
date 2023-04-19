@@ -23,7 +23,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: intelligence is a recessive gene 😆
 -->
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">:electric_plug: Connect with me:</h3>
 <p align="left">
     <a href="https://linkedin.com/in/pcmarcano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="pedro.marcano" height="30" width="40" /></a>
     <a href="https://twitter.com/pcmarcano" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="pcmarcano" height="30" width="40" /></a>
@@ -43,10 +43,7 @@ Here are some ideas to get you started:
 </p>
 
 <details>
-  <summary>:zap: GitHub Stats</summary>
-  <!--
-[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=pcmarcano&count_private=true&show_icons=true)]()
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=pcmarcano&langs_count=5)]()-->
+  <summary>:chart_with_upwards_trend: GitHub Stats</summary>
 
 <img align="left" alt="My GitHub Stats" src="https://github-readme-stats.vercel.app/api/?username=pcmarcano&count_private=true&show_icons=true" />
 
@@ -54,6 +51,3 @@ Here are some ideas to get you started:
 
 
 </details>
-
-:sound:
-:radio_button:
