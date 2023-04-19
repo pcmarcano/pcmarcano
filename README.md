@@ -44,10 +44,9 @@ Here are some ideas to get you started:
 
 <details>
   <summary>:zap: GitHub Stats</summary>
-
-    [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=pcmarcano&count_private=true&show_icons=true)]()
+[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=pcmarcano&count_private=true&show_icons=true)]()
 [![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=pcmarcano&langs_count=5)]()
 
-  <img align="left" alt="Anna's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=pcmarcano&show_icons=true&hide_border=true" />
+<img align="left" alt="Anna's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=pcmarcano&show_icons=true&hide_border=true" />
 
 </details>
