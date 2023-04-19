@@ -3,8 +3,10 @@
 <h3 align="center">A passionate developer from Venezuela living in Chile</h3>
 <p align="justify">Hi! I’m Pedro Marcano, I’m a computer science and overall technology follower. I create solutions for users that help simplify everyday tasks. I worked creating FileMaker Pro applications for diverse industries helping them reduce time and money doing routine work and getting them to work on things that really matter to them. Working side by side with customers and users to design and create their desired software application from UI elements, give them a UX they’ll love, to results and reports they will trust. Now I’m moving to more widespread and open languages to help more and learn from a bigger community.</p>
 
-[![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=pcmarcano&count_private=true&show_icons=true)]()
-[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=pcmarcano&langs_count=5)]()
+
+
+
+
 
 <!--
 **pcmarcano/pcmarcano** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -39,3 +41,13 @@ Here are some ideas to get you started:
     <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
     <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> 
 </p>
+
+<details>
+  <summary>:zap: GitHub Stats</summary>
+
+    [![My GitHub Stats](https://github-readme-stats.vercel.app/api/?username=pcmarcano&count_private=true&show_icons=true)]()
+[![My GitHub Language Stats](https://github-readme-stats.vercel.app/api/top-langs/?username=pcmarcano&langs_count=5)]()
+
+  <img align="left" alt="Anna's GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=pcmarcano&show_icons=true&hide_border=true" />
+
+</details>
