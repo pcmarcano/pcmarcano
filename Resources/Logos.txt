@@ -1,0 +1,16 @@
+https://www.w3.org/html/logo/
+
+https://www.w3.org/html/logo/downloads/HTML5_Logo.svg
+https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png
+https://www.w3.org/html/logo/downloads/HTML5_Logo_256.png
+https://www.w3.org/html/logo/downloads/HTML5_Logo_128.png
+https://www.w3.org/html/logo/downloads/HTML5_Logo_64.png
+https://www.w3.org/html/logo/downloads/HTML5_Logo_32.png
+
+https://www.mysql.com/about/legal/logos.html
+https://www.mysql.com/common/logos/logo-mysql-170x115.png
+
+https://github.com/nodejs/nodejs.org/tree/main/public/static/images
+https://github.com/nodejs/nodejs.org/blob/main/public/static/images/logo-hexagon.png
+
+https://code.visualstudio.com/favicon.ico
