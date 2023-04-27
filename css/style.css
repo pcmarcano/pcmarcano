@@ -11,8 +11,12 @@
 }
 
 body{
+    background-color: black;
     /* width: 1128px; */
     background: url('../Resources/background.jpg');
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
 }
 
 
@@ -27,15 +31,29 @@ header {
 
     justify-content: space-between;
     padding: 5px;
+
+
+    text-align: left;
+    /* Black coffee */
+    /* color: #3B302F; */
+    /* sky blue */
+    color: #8ABAD3;
+
+
+    font-size: 30px;
+
+    /* Fixed position for header */
+    position: fixed;
+    width: 100%;
 }
 
 /* heaLeft{
 
 } */
 
-heaRight p{
+/* heaRight p{
     text-align: left;
-
+    color: rgba(0, 0, 0, 0.5);
     text-transform: capitalize;
     font-size: 30px;
     height: 48px;
@@ -45,7 +63,7 @@ heaRight p{
 
     text-orientation: sideways;
 
-}
+} */
 
 nav {
     text-align: left;
@@ -63,8 +81,8 @@ nav {
 
 main {
     /* background-color: black; */
-    padding-top: 15px;
-
+    padding-top: 70px;
+    
 
 }
 
@@ -88,6 +106,7 @@ footer {
     backdrop-filter: blur(15.2px);
     -webkit-backdrop-filter: blur(15.2px);
     border: 1px solid rgba(255, 248, 231, 0.20);
+
 }
 
 /* .onLeft{
