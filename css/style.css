@@ -1,0 +1,90 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* width: 1128px; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+/* body{
+    width: 1128px;
+
+} */
+
+
+header {
+    position: static;
+    overflow: visible;
+    /* overflow-y: scroll; */
+    /* #FFF8E7 Cosmic latte */
+    background-color: #FFF8E766;
+    border: solid 1px #FFF8E7;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: small;
+    /* box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25); */
+}
+
+/* heaLeft{
+
+} */
+
+nav {
+    text-align: left;
+}
+
+
+.cabimg {
+    width: 48px;
+    height: 48px;
+    border-radius: 34px;
+}
+
+
+
+
+main {
+    background-color: black;
+    padding-top: 15px;
+    background: url('../Resources/background.jpg');
+}
+
+.maidiv {
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+footer {
+    position: unset;
+    background-color: #FFF8E7;
+    /* box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25); */
+    justify-content: space-between;
+    padding: 5px;
+}
+
+/* .onLeft{
+    width:85px;
+    align-items: center;
+    justify-content: flex-start;
+    
+} */
+
+.pieimg {
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/* .onRight{
+    width: 250px;
+    text-align: left;
+    align-content: end;
+} */

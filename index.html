@@ -1,42 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>foyer</title>
-    <link href="favicon.ico" rel="shortcut icon"  />
-    <link href="./css/styles.css" rel="stylesheet">
+    <!-- <link href="favicon.ico" rel="shortcut icon"  /> -->
+    <link href="./css/style.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9682730742.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <header>
+    <header class="flex ">
         <!-- Comment -->
-        <img src="./img/workplace.jpg" alt="1mt corner">
-        <nav>
-            <ul>
-                <li><a href="#">Inicio</a>
-                <li><a href="#">Quienes somos</a>
-                <li><a href="#">Servicios</a>
-            </ul>
-        </nav>
-    
+        <div class="heaLeft">
+            <a href="https://pcmarcano.github.io/pcmarcano/index.html">
+                <img class="cabimg" src="./img/workplace.jpg" alt="foyer">
+                <!-- <p>Home</p>    -->
+            </a>
+        </div>
+
+
+
+
+        <!-- <div class="heaRight">
+            <nav class="">
+                <ul>
+                    <li><a href="#">Inicio</a>
+                    <li><a href="#">Quienes somos</a>
+                    <li><a href="#">Servicios</a>
+                </ul>
+            </nav>
+        </div>
+     -->
+
     </header>
-    <main>
-        <iframe src="https://discord.com/widget?id=1045862407613992962&theme=dark" width="350" height="600" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
-        <a class="twitter-timeline" data-width="350" data-height="600" data-theme="dark" href="https://twitter.com/pcmarcano?ref_src=twsrc%5Etfw">Tweets by pcmarcano</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+    <main class="">
+
+        <div class="flex maidiv">
+            <iframe src="https://discord.com/widget?id=1045862407613992962&theme=dark" width="640" height="480"
+                allowtransparency="true" frameborder="0"
+                sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            <a class="twitter-timeline" data-width="640" data-height="480" data-theme="dark"
+                href="https://twitter.com/pcmarcano?ref_src=twsrc%5Etfw">Tweets by pcmarcano</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
 
 
 
     </main>
-    <footer>
-        <address>
-            Written by <a href="mailto:pedromarcano@outlook.cl">Pedro Marcano</a>.<br>
-            LinkedIn<br>
-            GitHub<br>
-            Santiago<br>
-            Chile
-            </address> 
+    <footer class="flex">
+
+        <div class="flex onLeft">
+            <!-- Written by <a href="mailto:pedromarcano@outlook.cl">Pedro Marcano.</a> -->
+
+            <a href="https://www.linkedin.com/in/pcmarcano/">
+                <img class="pieimg" src="./Resources/LinkedIn-Logos/In/Digital/Blue/2x/In-Blue-40@2x.png"
+                    alt="LinkedIn">
+            </a>
+            <a href="https://github.com/pcmarcano">
+                <img class="pieimg" src="./Resources/logos/github-mark/github-mark.png" alt="GitHub" width="40"
+                    height="40">
+            </a>
+
+
+        </div>
+
+        <!-- <div class="onRight">
+                <p>this must be in the center</p>
+            </div> -->
+
+        <!-- <div class="onRight">
+            <p>this must be in the right side</p>
+        </div> -->
+
     </footer>
 </body>
+
 </html>
