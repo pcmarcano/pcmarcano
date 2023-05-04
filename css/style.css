@@ -10,11 +10,11 @@
     display: flex;
 }
 
-body{
+body {
     background-color: black;
     /* width: 1128px; */
     background: url('../Resources/background.jpg');
-    background-repeat:no-repeat;
+    background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
 }
@@ -28,42 +28,74 @@ header {
     backdrop-filter: blur(15.2px);
     -webkit-backdrop-filter: blur(15.2px);
     border: 1px solid rgba(255, 248, 231, 0.20);
-
     justify-content: space-between;
     padding: 5px;
-
-
     text-align: left;
     /* Black coffee */
     /* color: #3B302F; */
     /* sky blue */
     color: #8ABAD3;
-
-
     font-size: 30px;
-
     /* Fixed position for header */
     position: fixed;
     width: 100%;
 }
 
-/* heaLeft{
+/* unvisited link */
+a:link {
+    /* deep blue */
+    color: #3843a2;
+    text-decoration: none;
+}
 
-} */
+/* visited link */
+a:visited {
+    /* sky blue */
+    color: whitesmoke;
+    text-decoration: none;
+}
 
-/* heaRight p{
+/* mouse over link */
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: lightblue;
+    text-decoration: none;
+}
+
+navbar {
     text-align: left;
     color: rgba(0, 0, 0, 0.5);
     text-transform: capitalize;
     font-size: 30px;
     height: 48px;
     width: 200px;
-    
+
     text-justify: auto;
 
     text-orientation: sideways;
 
-} */
+}
+
+heaRight p {
+    text-align: left;
+    color: rgba(0, 0, 0, 0.5);
+    text-transform: capitalize;
+    font-size: 30px;
+    height: 48px;
+    width: 200px;
+
+    text-justify: auto;
+
+    text-orientation: sideways;
+
+}
+
+
 
 nav {
     text-align: left;
@@ -90,25 +122,19 @@ main {
 }
 
 .glassframe {
-    width: 640px;
+    width: 80%;
     height: 480px;
-
 
     align-items: center;
     justify-content: center;
-
-    
-
     /* From https://css.glass */
     background: rgba(255, 248, 231, 0.20);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(16.5px);
-    
     -webkit-backdrop-filter: blur(16.5px);
     border: 1px solid rgba(255, 248, 231, 0.20);
     margin-bottom: 5px;
-
     color: #8ABAD3;
     font-size: 30px;
 }
