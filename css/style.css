@@ -9,77 +9,61 @@
 .flex {
     display: flex;
 }
+/* -------- NAVBAR ------ */
+.navbar {
+    background-color: #0E1514;
+    height: 80px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.menu{
+    display: flex;
+    align-items: center;
+    /*gap: 24px;*/
+}
+
+.menu-links{
+    display: flex;
+    /*gap: 24px;*/
+    padding-inline: 24px;
+}
+.menu-links a{
+    font-weight: 300;
+    color: #e3edf8;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+.menu-links a:hover{
+    color: #DDD8D8;
+}
+.menu-links a:active{
+    color: #5a233b;
+}
+.menu-links a:visited{
+    color: #99CAD9;
+}
+.menu-links a:active{
+    color: #e3edf8;
+}
+
+
+
+
+/*BODY*/
 body {
     background-color: black;
     /* width: 1128px; */
-    background: url('../Resources/background.jpg');
+    /*background: url('../Resources/background.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
 }
 
 
-header {
-    /* From https://css.glass */
-    border-radius: 15px 15px 0 0;
-    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
-    background: rgba(255, 248, 231, 0.20);
-    backdrop-filter: blur(15.2px);
-    -webkit-backdrop-filter: blur(15.2px);
-    border: 1px solid rgba(255, 248, 231, 0.20);
-    justify-content: space-between;
-    padding: 5px;
-    text-align: left;
-    /* Black coffee */
-    /* color: #3B302F; */
-    /* sky blue */
-    color: #8ABAD3;
-    font-size: 30px;
-    /* Fixed position for header */
-    position: fixed;
-    width: 100%;
-}
 
-/* unvisited link */
-a:link {
-    /* deep blue */
-    color: #3843a2;
-    text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-    /* sky blue */
-    color: whitesmoke;
-    text-decoration: none;
-}
-
-/* mouse over link */
-a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-/* selected link */
-a:active {
-    color: lightblue;
-    text-decoration: none;
-}
-
-navbar {
-    text-align: left;
-    color: rgba(0, 0, 0, 0.5);
-    text-transform: capitalize;
-    font-size: 30px;
-    height: 48px;
-    width: 200px;
-
-    text-justify: auto;
-
-    text-orientation: sideways;
-
-}
 
 heaRight p {
     text-align: left;
@@ -93,12 +77,6 @@ heaRight p {
 
     text-orientation: sideways;
 
-}
-
-
-
-nav {
-    text-align: left;
 }
 
 
@@ -162,22 +140,7 @@ footer {
 
 }
 
-/* .onLeft{
-    width:85px;
-    align-items: center;
-    justify-content: flex-start;
-    
-} */
-
 .pieimg {
     width: 40px;
     height: 40px;
 }
-
-
-
-/* .onRight{
-    width: 250px;
-    text-align: left;
-    align-content: end;
-} */
