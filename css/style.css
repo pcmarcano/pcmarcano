@@ -31,6 +31,7 @@
     padding-inline: 24px;
 }
 .menu-links a{
+    font-size: 15px;
     font-weight: 300;
     color: #e3edf8;
     text-decoration: none;
@@ -52,7 +53,7 @@
 
 
 
-/*BODY*/
+/* -------- BODY ------ */
 body {
     background-color: black;
     /* width: 1128px; */
@@ -124,23 +125,74 @@ main {
 }
 
 
-
+/* -------- FOOTER ------ */
 
 footer {
+    position:relative;
+    background: #0E1514;
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+}
+
+.footop{
+    color: #8ABAD3;
+}
+
+
+
+/*
+footer::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 100px;
+    height: 1px;
+    width: 100%;
+    background: #8ABAD3;
+}
+
+footer .content{
+    max-width: 1250px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+footer .content .top{
+    margin-bottom: 20px;
+}
+
+.content  .top .logo-details{
+    color: #e3edf8;
+    font-size: 15px;
+}
+
+footer .content .link-boxes{
+    width: 100%;
+    display: flex;
     justify-content: space-between;
-    padding: 5px;
-
-    /* From https://css.glass */
-    border-radius: 0px 0px 15px 15px;
-    /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
-    background: rgba(255, 248, 231, 0.20);
-    backdrop-filter: blur(15.2px);
-    -webkit-backdrop-filter: blur(15.2px);
-    border: 1px solid rgba(255, 248, 231, 0.20);
-
+    gap: 10px
 }
 
-.pieimg {
-    width: 40px;
-    height: 40px;
+footer .content .link-boxes .box{
+
+    width: 60%;
+    flex-wrap: wrap;
 }
+
+.content .link-boxes{
+    color: #8ABAD3;
+    font-size: 15px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.link-name::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    height: 2px;
+    width: 35px;
+    background: #fff;
+}
+*/
