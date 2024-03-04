@@ -27,8 +27,6 @@
 
 .menu-links{
     display: flex;
-    /*gap: 24px;*/
-    padding-inline: 24px;
 }
 .menu-links a{
     font-size: 15px;
@@ -46,9 +44,7 @@
 .menu-links a:visited{
     color: #99CAD9;
 }
-.menu-links a:active{
-    color: #e3edf8;
-}
+
 
 
 
@@ -131,14 +127,29 @@ footer {
     position:relative;
     background: #0E1514;
     width: 100%;
-    padding: 10px 20px 10px 20px;
+    padding: 20px 20px 10px 20px;
+
 }
 
 .footop{
     color: #8ABAD3;
+    padding-bottom: 20px;
+}
+
+footer ul li{
+    color: #fff;
+    list-style-type: none;
+
 }
 
 
+
+
+footer .content .menu-links{
+    width: 100%;
+    gap: 12px;
+
+}
 
 /*
 footer::before{
@@ -166,12 +177,6 @@ footer .content .top{
     font-size: 15px;
 }
 
-footer .content .link-boxes{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px
-}
 
 footer .content .link-boxes .box{
 
