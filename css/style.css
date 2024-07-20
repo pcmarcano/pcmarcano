@@ -15,7 +15,7 @@
 .navbar {
     /* background-color: #fff; */
     /* height: 80px; */
-    /* padding: 10px 10px; */
+    padding: 10px 10px;
     justify-content: space-between;
     align-items: center;
     /* border: red 1px solid; */
@@ -52,8 +52,8 @@
 }
 
 .cabimg {
-    width: 48px;
-    height: 48px;
+    width: 32px;
+    height: 32px;
     border-radius: 34px;
     border: green 1px solid;
 }
@@ -72,12 +72,18 @@ body {
     flex-direction: column;
     min-height: 100vh; 
     /* width: 1128px; */
-    /*background: url('../Resources/background.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;*/
+
 }
 
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400 */
+
+.playwrite-cu-400 {
+  font-family: "Playwrite CU", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 
 header{
@@ -104,14 +110,15 @@ main{
     align-items:flex-start;
     padding-left: 10px;
     flex-direction: column;
-    font-size: 45px;
+/*     font-size: 45px; */
     /* border: red 1px solid; */
 }
 
 .image-text {
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-size: 72px;
     font-weight: bold;
-    background: url(/img/1706014858860.jpeg) repeat;
+    background: url(/img/369062828_5968953979871560_7276983940212864659_n.jpg) repeat;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -145,7 +152,6 @@ main{
 /* -------- FOOTER ------ */
 footer {
     position:absolute;
-    /* background: #fff; */
     width: 100%;
     padding: 10px 10px;
     /* border: red 1px solid; */
