@@ -15,10 +15,10 @@
 .navbar {
     /* background-color: #fff; */
     /* height: 80px; */
-    padding: 10px 10px;
+    /* padding: 10px 10px; */
     justify-content: space-between;
     align-items: center;
-    border: red 1px solid;
+    /* border: red 1px solid; */
     backdrop-filter: blur(30px);
     box-shadow: 0 0 30px rgba(227, 228, 237, 0.37);
 }
@@ -82,7 +82,8 @@ body {
 
 header{
     justify-content: center;
-    border: red 1px solid;
+    padding: 10px 0 10px 0;
+    /* border: red 1px solid; */
 }
 
 main{
@@ -104,13 +105,13 @@ main{
     padding-left: 10px;
     flex-direction: column;
     font-size: 45px;
-    border: red 1px solid;
+    /* border: red 1px solid; */
 }
 
 .image-text {
     font-size: 72px;
     font-weight: bold;
-    background: url('your-image.jpg') repeat;
+    background: url(/img/1706014858860.jpeg) repeat;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
@@ -144,18 +145,21 @@ main{
 /* -------- FOOTER ------ */
 footer {
     position:absolute;
-    background: #fff;
+    /* background: #fff; */
     width: 100%;
     padding: 10px 10px;
-    border: red 1px solid;
+    /* border: red 1px solid; */
     bottom: 0;
     left: 0;
+
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 30px rgba(227, 228, 237, 0.37);
 }
 
 footer ul li{
     color: #000;
     list-style-type: none;
-    border: green 1px solid;
+    /* border: green 1px solid; */
 }
 
 
