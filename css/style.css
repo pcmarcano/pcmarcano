@@ -21,7 +21,7 @@
 .menu{
     display: flex;
     align-items: center;
-    border: green 1px solid;
+    /* border: green 1px solid; */
     /*gap: 24px;*/
 }
 
