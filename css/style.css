@@ -23,6 +23,12 @@
     box-shadow: 0 0 30px rgba(227, 228, 237, 0.37);
 }
 
+header{
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    /* border: red 1px solid; */
+}
+
 .menu{
     display: flex;
     align-items: center;
@@ -75,30 +81,22 @@ body {
 
 }
 
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 100 to 400 */
-
 .playwrite-cu-400 {
   font-family: "Playwrite CU", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  
 }
 
 
-header{
-    justify-content: center;
-    padding: 10px 0 10px 0;
-    /* border: red 1px solid; */
-}
 
 main{
     flex: 1;
-
     justify-content:center;
     align-items:center;
     /* flex-direction: column; */
-    /* background-color: black; */
+    background-color: none;
     /* padding-left: 10px; */
 
     /*height: 100vh;*/
@@ -118,8 +116,8 @@ main{
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
     font-size: 72px;
     font-weight: bold;
-    background: url(/img/369062828.jpg) repeat;
-/*     -webkit-background-clip: text;
+/*    background: url(/img/369062828.jpg) repeat;
+    -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
