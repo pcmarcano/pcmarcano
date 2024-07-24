@@ -74,7 +74,7 @@ header {
 /* -------- BODY ------ */
 
 body {
-    background-image: url(./img/Background.jpeg);
+    background-image: url('/img/Background.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -88,24 +88,25 @@ body {
 /* <weight>: Use a value from 100 to 400 */
 
 .playwrite-co-400 {
-  font-family: "Playwrite CO", cursive;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Playwrite CO", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
 
 .image-text {
+
+    font-size: 70px;
+    /* Cosmic late */
     color: #FFF8E7;
-    /*Cosmic late */
-/*      font-size: 70px;
-     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); */
-   background: url(./img/369062828.jpg) repeat;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    /*    background: url(/img/369062828.jpg) repeat;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
-    background-size: cover;
+    background-size: cover; */
 }
 
 
@@ -151,6 +152,7 @@ footer .content .menu-links {
     gap: 10px;
 
 }
+
 /* .link-name::before{
     content: '';
     position: absolute;
