@@ -73,7 +73,7 @@ header {
 /* -------- BODY ------ */
 
 body {
-    background-image: url(/img/20240620.jpeg);
+    background-image: url(/img/Background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -81,8 +81,6 @@ body {
     /* background-color: #808080; */
     flex-direction: column;
     min-height: 100vh;
-    /* width: 1128px; */
-
 }
 
 /* <uniquifier>: Use a unique and descriptive class name */
@@ -114,11 +112,7 @@ main {
     flex: 1;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
     background-color: none;
-    /* padding-left: 10px; */
-
-    /*height: 100vh;*/
 }
 
 .centrado {
@@ -127,31 +121,8 @@ main {
     align-items: flex-start;
     padding-left: 10px;
     flex-direction: column;
-    /*     font-size: 45px; */
     /* border: red 1px solid; */
 }
-
-
-
-
-.glassframe {
-    width: 80%;
-    height: 480px;
-
-    align-items: center;
-    justify-content: center;
-    /* From https://css.glass */
-    background: rgba(255, 248, 231, 0.20);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(16.5px);
-    -webkit-backdrop-filter: blur(16.5px);
-    border: 1px solid rgba(255, 248, 231, 0.20);
-    margin-bottom: 5px;
-    color: #8ABAD3;
-    font-size: 30px;
-}
-
 
 
 
@@ -174,62 +145,13 @@ footer ul li {
     /* border: green 1px solid; */
 }
 
-
-
-
 footer .content .menu-links {
     /*width: 100%;*/
     gap: 10px;
 
 }
-
-/*
-footer::before{
+/* .link-name::before{
     content: '';
     position: absolute;
     left: 0;
-    top: 100px;
-    height: 1px;
-    width: 100%;
-    background: #8ABAD3;
-}
-
-footer .content{
-    max-width: 1250px;
-    margin: auto;
-    padding-top: 20px;
-}
-
-footer .content .top{
-    margin-bottom: 20px;
-}
-
-.content  .top .logo-details{
-    color: #e3edf8;
-    font-size: 15px;
-}
-
-
-footer .content .link-boxes .box{
-
-    width: 60%;
-    flex-wrap: wrap;
-}
-
-.content .link-boxes{
-    color: #8ABAD3;
-    font-size: 15px;
-    margin-bottom: 10px;
-    position: relative;
-}
-
-.link-name::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    height: 2px;
-    width: 35px;
-    background: #fff;
-}
-*/
+    bo */
