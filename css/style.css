@@ -13,14 +13,35 @@
 
 /* -------- NAVBAR ------ */
 .navbar {
-    /* background-color: #fff; */
-    /* height: 80px; */
     padding: 10px 10px;
     justify-content: space-between;
-    align-items: center;
-    /* border: red 1px solid; */
+
     backdrop-filter: blur(30px);
     box-shadow: 0 0 30px rgba(227, 228, 237, 0.37);
+
+    /* border: red 1px solid; */
+}
+
+button {
+    border: none;
+    color: black;
+    padding: 6px 8px 5px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    /* border: green solid 1px; */
+}
+
+
+button:hover {
+    color: darkgray;
+}
+
+button:active {
+    color: lightgray;
 }
 
 header {
@@ -30,16 +51,19 @@ header {
     /* border: red 1px solid; */
 }
 
+
+
 .menu {
-    display: flex;
+    /* display: flex; */
     align-items: center;
+    justify-content: center;
     /* border: green 1px solid; */
-    /*gap: 24px;*/
+    /* gap: 24px; */
 }
 
 .menu-links {
     display: flex;
-    /* border: orangered 1px solid; */
+    align-items: center;
 }
 
 .menu-links a {
@@ -48,7 +72,11 @@ header {
     color: #000;
     text-decoration: none;
     padding: 8px 16px;
+
 }
+
+
+
 
 .menu-links a:hover {
     color: darkgray;
@@ -158,3 +186,13 @@ footer .content .menu-links {
     position: absolute;
     left: 0;
     bo */
+
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
