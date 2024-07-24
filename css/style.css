@@ -23,37 +23,41 @@
     box-shadow: 0 0 30px rgba(227, 228, 237, 0.37);
 }
 
-header{
+header {
     justify-content: center;
     padding: 10px 0 10px 0;
     /* border: red 1px solid; */
 }
 
-.menu{
+.menu {
     display: flex;
     align-items: center;
     /* border: green 1px solid; */
     /*gap: 24px;*/
 }
 
-.menu-links{
+.menu-links {
     display: flex;
     /* border: orangered 1px solid; */
 }
-.menu-links a{
+
+.menu-links a {
     font-size: 15px;
     font-weight: 300;
     color: #000;
     text-decoration: none;
     padding: 8px 16px;
 }
-.menu-links a:hover{
+
+.menu-links a:hover {
     color: darkgray;
 }
-.menu-links a:active{
+
+.menu-links a:active {
     color: lightgray;
 }
-.menu-links a:visited{
+
+.menu-links a:visited {
     color: darkgray;
 }
 
@@ -76,37 +80,40 @@ body {
 
     /* background-color: #808080; */
     flex-direction: column;
-    min-height: 100vh; 
+    min-height: 100vh;
     /* width: 1128px; */
 
 }
 
-.playwrite-cu-400 {
-  font-family: "Playwrite CU", cursive;
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 100 to 400 */
+
+.playwrite-co-400 {
+  font-family: "Playwrite CO", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  font-size: 72px;
-  
 }
 
-.image-text {
-     /* color: #FFF8E7; */
-     /*Cosmic late */
 
-    background: url(/img/369062828.jpg) repeat;
+.image-text {
+    color: #FFF8E7;
+    /*Cosmic late */
+     font-size: 72px;
+     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+/*    background: url(/img/369062828.jpg) repeat;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
-    background-size: cover; 
+    background-size: cover; */
 }
 
 
-main{
+main {
     flex: 1;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
     /* flex-direction: column; */
     background-color: none;
     /* padding-left: 10px; */
@@ -117,10 +124,10 @@ main{
 .centrado {
     height: 70vh;
     justify-content: center;
-    align-items:flex-start;
+    align-items: flex-start;
     padding-left: 10px;
     flex-direction: column;
-/*     font-size: 45px; */
+    /*     font-size: 45px; */
     /* border: red 1px solid; */
 }
 
@@ -150,7 +157,7 @@ main{
 
 /* -------- FOOTER ------ */
 footer {
-    position:absolute;
+    position: absolute;
     width: 100%;
     padding: 10px 10px;
     /* border: red 1px solid; */
@@ -161,7 +168,7 @@ footer {
     box-shadow: 0 0 30px rgba(227, 228, 237, 0.37);
 }
 
-footer ul li{
+footer ul li {
     color: #000;
     list-style-type: none;
     /* border: green 1px solid; */
@@ -170,7 +177,7 @@ footer ul li{
 
 
 
-footer .content .menu-links{
+footer .content .menu-links {
     /*width: 100%;*/
     gap: 10px;
 
