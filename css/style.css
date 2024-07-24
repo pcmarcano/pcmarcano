@@ -99,14 +99,14 @@ body {
 
     font-size: 70px;
     /* Cosmic late */
-    color: #FFF8E7;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    /*    background: url(/img/369062828.jpg) repeat;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    background-size: cover; */
+/*     color: #FFF8E7;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); */
+    background: url('/img/369062828.jpg') repeat;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        background-size: cover;
 }
 
 
