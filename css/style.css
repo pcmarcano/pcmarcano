@@ -86,9 +86,21 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  font-size: 72px;
   
 }
 
+.image-text {
+     /* color: #FFF8E7; */
+     /*Cosmic late */
+
+    background: url(/img/369062828.jpg) repeat;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-size: cover; 
+}
 
 
 main{
@@ -112,17 +124,6 @@ main{
     /* border: red 1px solid; */
 }
 
-.image-text {
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    font-size: 72px;
-    font-weight: bold;
-/*    background: url(/img/369062828.jpg) repeat;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    background-size: cover; */
-}
 
 
 
