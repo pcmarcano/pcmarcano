@@ -25,6 +25,7 @@
 
 header {
     justify-content: center;
+    text-align: center;
     padding: 10px 0 10px 0;
     /* border: red 1px solid; */
 }
@@ -97,7 +98,7 @@ body {
 .image-text {
     color: #FFF8E7;
     /*Cosmic late */
-     font-size: 72px;
+     font-size: 70px;
      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 /*    background: url(/img/369062828.jpg) repeat;
     -webkit-background-clip: text;
