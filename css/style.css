@@ -74,7 +74,7 @@ header {
 /* -------- BODY ------ */
 
 body {
-    background-image: url(img/Background.jpeg);
+    background-image: url('img/Background.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
