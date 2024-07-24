@@ -74,7 +74,7 @@ header {
 /* -------- BODY ------ */
 
 body {
-    background-image: url(../img/Background.jpeg);
+    background-image: url(img/Background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -101,7 +101,7 @@ body {
     /* Cosmic late */
 /*     color: #FFF8E7;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); */
-    background: url('/img/369062828.jpg') repeat;
+    background: url('img/369062828.jpg') repeat;
         -webkit-background-clip: text;
         -moz-background-clip: text;
         background-clip: text;
